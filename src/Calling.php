@@ -82,5 +82,4 @@ class Calling
     {
         return $this->number;
     }
-
 }
