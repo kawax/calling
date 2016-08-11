@@ -17,5 +17,3 @@ file_put_contents(__DIR__ . '/number.json', json_encode($numbers, JSON_UNESCAPED
 
 $numbers = json_decode(file_get_contents(__DIR__ . '/number.json'), true);
 var_dump(count($numbers));
-
-

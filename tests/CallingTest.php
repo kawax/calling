@@ -73,6 +73,4 @@ class CallingTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals('フリーダイヤル', $area);
     }
-
-
 }
