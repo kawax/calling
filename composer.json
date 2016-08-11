@@ -1,0 +1,26 @@
+{
+  "name": "revolution/calling",
+  "description": "telephone number",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^5.5",
+    "illuminate/support": "^5.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kawax",
+      "email": "kawaxbiz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Revolution\\Calling\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Calling\\tests\\": "tests/"
+    }
+  }
+}
