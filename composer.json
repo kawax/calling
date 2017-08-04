@@ -3,8 +3,8 @@
   "description": "telephone number",
   "type": "library",
   "require-dev": {
-    "phpunit/phpunit": "^5.5",
-    "illuminate/support": "^5.3"
+    "phpunit/phpunit": "^6.0",
+    "illuminate/support": "5.*"
   },
   "license": "MIT",
   "authors": [
@@ -21,6 +21,16 @@
   "autoload-dev": {
     "psr-4": {
       "Calling\\tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Revolution\\Calling\\Providers\\CallingServiceProvider"
+      ],
+      "aliases": {
+        "Calling": "Revolution\\Calling\\Facades\\Calling"
+      }
     }
   }
 }
